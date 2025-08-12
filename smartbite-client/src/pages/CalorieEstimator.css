@@ -1,0 +1,85 @@
+.calorie-estimator-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  min-height: 100vh; /* ✅ Good: allows content to grow */
+  overflow-y: auto; /* ✅ Allows scrolling */
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background: #fdfdfd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.estimator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+select,
+input,
+button {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.result-section {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.result-section h3 {
+  margin-bottom: 12px;
+}
+
+.macro-bars .bar {
+  margin: 10px 0;
+}
+
+.macro-bars label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+progress {
+  width: 100%;
+  height: 18px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 8px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #76c7c0;
+  border-radius: 8px;
+}
+
+.alt-section,
+.grade-section {
+  margin-top: 20px;
+}
+
+.tip {
+  color: #777;
+  font-style: italic;
+}

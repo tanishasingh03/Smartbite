@@ -1,0 +1,95 @@
+/*html,*/
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100vh; /* ✅ Good: allows content to grow */
+  overflow-y: auto; /* ✅ Allows scrolling */
+  padding-bottom: 50px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0f2f5;
+}
+/*
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+*/
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns content towards top */
+  padding-top: 50px; /* Adds some spacing from top */
+  height: 100vh;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.logo-text {
+  color: #246f42;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login-box {
+  background-color: white;
+  padding: 25px;
+  border-radius: 8px;
+  width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.login-box button {
+  background-color: green;
+  color: white;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background-color: green;
+}
+/* #166fe5*/
+
+.extra-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.link-style {
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link-style:hover {
+  text-decoration: underline;
+}
